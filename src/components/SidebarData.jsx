@@ -8,6 +8,19 @@ export const SidebarData = [
         title: "Home",
         path: '/',
         icon : <AiIcons.AiFillHome />,
+        cName : 'nav-text',
+        
+    },
+    {
+        title: "Doc. Appointment",
+        path: '/appointment',
+        icon : <FaIcons.FaStethoscope />,
+        cName : 'nav-text'
+    },
+    {
+        title: "med. Reminer",
+        path: '/medicinereminder',
+        icon : <FaIcons.FaFileMedical />,
         cName : 'nav-text'
     },
     {
@@ -17,15 +30,15 @@ export const SidebarData = [
         cName : 'nav-text'
     },
     {
-        title: "Products",
-        path: '/products',
+        title: "Stocks",
+        path: '/Stocks',
         icon : <FaIcons.FaCartPlus />,
         cName : 'nav-text'
     },
     {
-        title: "Team",
-        path: '/team',
-        icon : <IoIcons.IoMdPeople />,
+        title: "Gallery",
+        path: '/Gallery',
+        icon : <FaIcons.FaImage />,
         cName : 'nav-text'
     },
     {
@@ -35,7 +48,7 @@ export const SidebarData = [
         cName : 'nav-text'
     },
     {
-        title: "Support",
+        title: "About Us",
         path: '/support',
         icon : <IoIcons.IoMdHelpCircle />,
         cName : 'nav-text'
